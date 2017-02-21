@@ -44,6 +44,11 @@ img {
     left: 15px;;
 }
 
+img:hover {
+    border: 5px solid #FA4F00;
+    cursor: pointer;
+}
+
 article h2 {
     text-align: center;
     color: #ffffff;
@@ -75,4 +80,9 @@ button {
     font-style: italic;
     position: relative;
     left: 5px;
+}
+
+button:hover {
+    color: #000000;
+    cursor: pointer;
 }
